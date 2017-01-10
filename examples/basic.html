@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Basic Animations Example</title>
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+
+  <div id='content' class='content'>
+  
+    <div id='animate_me' style='width: 200px; height: 200px; background-color: #666; text-align: center; position: absolute; top: 10px; left: 10px;'>Click me to animate</div>
+  
+  </div>
+  
+  <script src='../src/ee.animate.js?v=100'></script>
+  <script>
+    (function() {
+    
+      var animations = {
+        left: '500px',
+        top: '500px'
+      };
+    
+      var element_1 = document.querySelector('#animate_me');
+      
+      element_1.onclick = function() {
+      
+        _ee.animate(element_1,animations,800,'easeOutElastic');
+      
+      };
+    
+    })();
+  </script>
+  
+</body>
+</html>

@@ -177,4 +177,4 @@
   
   }
 
-})(window._ee = window._ee || {});
+})(window.Gruuvy = window.Gruuvy || {});

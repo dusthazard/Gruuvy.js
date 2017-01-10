@@ -1,7 +1,3 @@
----
-title: Vanilla Javascript Animations Library
----
-
 # Vanilla Javascript Animations Library #
 
 **Description:** EE Animate is a super light animation plugin written in 'vanilla' Javascript.

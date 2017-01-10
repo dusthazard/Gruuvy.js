@@ -16,13 +16,9 @@ Include the javascript src file anywhere in your html document.
 
 **Via CDN:**
 
-<<<<<<< HEAD
-<script src='https://cdn.rawgit.com/dusthazard/Gruuvy/f94536e7/src/gruuvy.js'></script>
-=======
 ```
 <script src='https://cdn.rawgit.com/dusthazard/Gruuvy/f94536e7/src/gruuvy.js'></script>
 ```
->>>>>>> e90ada1a0cdfcc31a584024fb88fc5680c547dbe
 
 ## Configuration
 

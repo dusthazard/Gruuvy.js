@@ -6,7 +6,7 @@
 
 [http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/](http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/)
 
-**Additional code examples available in the /examples/ directory**
+*Additional code examples available in the /examples/ directory*
 
 ## Dependencies
 

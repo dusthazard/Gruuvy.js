@@ -6,6 +6,8 @@
 
 [http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/](http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/)
 
+**Additional code examples available in the /examples/ directory**
+
 ## Dependencies
 
 None
@@ -17,7 +19,7 @@ Include the javascript src file anywhere in your html document.
 **Via CDN:**
 
 ```
-<script src='https://cdn.rawgit.com/dusthazard/Gruuvy.js/0b76d1d917e55d0833c8f678aba7b3af93ede27a/src/gruuvy.js'></script>
+<script src="https://cdn.rawgit.com/dusthazard/Gruuvy.js/0b76d1d917e55d0833c8f678aba7b3af93ede27a/src/gruuvy.js"></script>
 ```
 
 ## Configuration

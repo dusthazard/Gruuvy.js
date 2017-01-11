@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Basic Animations Example</title>
+  <title>Double Axis Animations Example</title>
   
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -32,11 +32,22 @@
     
     (function() {
     
+      var animations = {
+        left: '500px',
+        top: '500px'
+      };
+      
+      var options = {
+        duration: 800,
+        style: 'easeInOutBounce',
+      };
+    
       var element_1 = document.querySelector('#animate_me');
       
       element_1.onclick = function() {
       
-        Gruuvy.animate(element_1,{left: '800px'});
+        Gruuvy.animate(element_1,{left: '800px'},{duration: 1200, style: 'easeInSine'});
+        Gruuvy.animate(element_1,{top: '600px'},{duration: 1200, style: 'easeOutBounce'});
       
       };
     

@@ -1,10 +1,10 @@
-# Vanilla Javascript Animations Library #
+# 'Vanilla' Javascript Animations and Easing Plugin
 
-**Description:** Gruuvy is a super light weight (<4kb) animation plugin written in 'vanilla' Javascript, and designed to move objects around the DOM in an elegant way without using jQuery.
+**Description:** Gruuvy is a super light weight (<3.5kb) animation plugin written in 'vanilla' Javascript, and designed to move objects around the DOM in an elegant way without using jQuery.
 
 ## Live Examples
 
-<<TKTKTK>>
+[title](http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/)http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/[/title]
 
 ## Dependencies
 
@@ -37,20 +37,20 @@ var options = {
 Gruuvy needs an element to animate, so the first step is to grab the variable:
 
 ```
-var ELEMENT = document.querySelector('#your_awesome_element');
+var foo = document.querySelector('#your_awesome_element');
 ```
 
 A basic animation of an element can be done by passing an object of styles to the animate function:
 
 ```
-Gruuvy.animate(ELEMENT,{left: '30px'});
+Gruuvy.animate(foo,{left: '30px'});
 ```
 
 Running multiple animations is done by passing multiple variables through the styles object:
 
 ```
 Gruuvy.animate(
-  ELEMENT,
+  foo,
   {left: '30px',right: '30px'}
 );
 ```
@@ -59,7 +59,7 @@ To change the options outlined in the configuration section, pass the options ob
 
 ```
 Gruuvy.animate(
-  ELEMENT,
+  foo,
   {left: '30px'},
   options
 );
@@ -82,7 +82,6 @@ Current available animation types are listed below. For examples, see the live e
 'easeInQuint'
 'easeOutQuint'
 'easeInOutQuint'
-'easeOutElastic'
 'easeInSine'
 'easeOutSine'
 'easeInOutSine'

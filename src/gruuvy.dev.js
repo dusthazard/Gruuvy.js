@@ -21,7 +21,7 @@
    * @returns nothing
    */
 
-  g.animate = function(elem,styles,options = false) {
+  g.animate = function(elem,styles,options) {
   
     options = options ? options : {};
   
@@ -32,7 +32,7 @@
     // set default arguments
     
     if(!options.duration) options.duration = 450;
-    if(!options.style) options.style = 'easeInCubic';
+    if(!options.style) options.style = 'linear';
     if(!options.callback) options.callback = false;
   
     for(var i in styles) {
@@ -118,8 +118,9 @@
    */
   
   var getStyle = function(el, styleProp) {
+  
       // check for an inline style
-      if(el.style[styleProp]) return el.style[styleProp];
+      if(typeof el.style !== 'undefined' && el.style[styleProp]) return el.style[styleProp];
       // if none, continue
       var value, defaultView = (el.ownerDocument || document).defaultView;
       // W3C standard way:

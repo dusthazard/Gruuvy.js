@@ -71,34 +71,34 @@ Gruuvy.animate(
 
 Current available animation types are listed below. For examples, see the live examples link above:
 
-linear
-easeInQuad
-easeOutQuad
-easeInOutQuad
-easeInCubic
-easeOutCubic
-easeInOutCubic
-easeInQuart
-easeOutQuart
-easeInOutQuart
-easeInQuint
-easeOutQuint
-easeInOutQuint
-easeInSine
-easeOutSine
-easeInOutSine
-easeInCirc
-easeOutCirc
-easeInOutCirc
-easeInBack
-easeOutBack
-easeInOutBack
-easeInElastic
-easeOutElastic
-easeInOutElastic
-easeInBounce
-easeOutBounce
-easeInOutBounce
+linear,
+easeInQuad,
+easeOutQuad,
+easeInOutQuad,
+easeInCubic,
+easeOutCubic,
+easeInOutCubic,
+easeInQuart,
+easeOutQuart,
+easeInOutQuart,
+easeInQuint,
+easeOutQuint,
+easeInOutQuint,
+easeInSine,
+easeOutSine,
+easeInOutSine,
+easeInCirc,
+easeOutCirc,
+easeInOutCirc,
+easeInBack,
+easeOutBack,
+easeInOutBack,
+easeInElastic,
+easeOutElastic,
+easeInOutElastic,
+easeInBounce,
+easeOutBounce,
+easeInOutBounce,
 
 ## Thanks
 

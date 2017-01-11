@@ -99,3 +99,8 @@ Current available animation types are listed below. For examples, see the live e
 'easeInBounce'
 'easeOutBounce'
 'easeInOutBounce'
+
+## Thanks
+
+(Josh Marinacci)[http://www.joshondesign.com/2013/03/01/improvedEasingEquations] For a great explanation on minimizing math functions for graphing/easing
+(Rob Penner)[http://robertpenner.com/easing/] For pretty much inventing easing

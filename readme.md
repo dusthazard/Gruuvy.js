@@ -4,7 +4,7 @@
 
 ## Live Examples
 
-[title](http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/)http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/[/title]
+[http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/](http://www.ericsestimate.com/vanilla-javascript-animations-easing-plugin-examples/)
 
 ## Dependencies
 

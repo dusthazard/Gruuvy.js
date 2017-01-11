@@ -25,7 +25,7 @@
   
   </div>
   
-  <script src='../src/gruuvy.js?v=2566546666446444'></script>
+  <script src='../src/gruuvy.js?v=234444'></script>
   <script>
   
     // declare callback function in the global space   
@@ -39,7 +39,15 @@
       
       var options = {
         duration: 800,
-        style: 'easeInOutBounce',
+        style: 'easeOutElastic',
+        callback: function() {
+        
+          Gruuvy.animate(
+            document.querySelector('#animate_me'),
+            {left: '10px'}
+          );
+        
+        }
       };
     
       var element_1 = document.querySelector('#animate_me');

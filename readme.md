@@ -16,15 +16,19 @@ Include the javascript src file anywhere in your html document.
 
 **Via CDN:**
 
-<<<<<<< HEAD
 <script src='https://cdn.rawgit.com/dusthazard/Gruuvy/f94536e7/src/gruuvy.js'></script>
-=======
-```
-<script src='https://cdn.rawgit.com/dusthazard/Gruuvy/f94536e7/src/gruuvy.js'></script>
-```
->>>>>>> e90ada1a0cdfcc31a584024fb88fc5680c547dbe
 
 ## Configuration
+
+Gruuvy's animation settings can be set by passing an object of options to the animate function. The options available are as follows:
+
+```
+var options = {
+  duration:     450,
+  style:        'easeInCubic',
+  callback:     callback_function
+}; 
+```
 
 ## Usage
 
@@ -49,42 +53,46 @@ Gruuvy.animate(
 );
 ```
 
-Changing the duration of the animation is done with the third argument of the animate function:
+To change the options outlined in the configuration section, pass the options object as the third argument:
 
 ```
 Gruuvy.animate(
   ELEMENT,
   {left: '30px'},
-  500
-);
-```
-
-Different animation styles are chosen with the fourth argument of the animate function:
-
-```
-Gruuvy.animate(
-  ELEMENT,
-  {left: '30px'},
-  500,
-  'easeOutCubic'
-);
-```
-
-To assign a callback function that will be called when the animation is complete, use the 5th argument:
-
-```
-Gruuvy.animate(
-  ELEMENT,
-  {left: '30px'},
-  500,
-  'easeOutCubic',
-  callback
+  options
 );
 ```
 
 ## Animation Types
 
-Current available animation types:
+Current available animation types are listed below. For examples, see the live examples link above:
 
-'easeOutElastic'
+'linear'
+'easeInQuad'
+'easeOutQuad'
+'easeInOutQuad'
 'easeInCubic'
+'easeOutCubic'
+'easeInOutCubic'
+'easeInQuart'
+'easeOutQuart'
+'easeInOutQuart'
+'easeInQuint'
+'easeOutQuint'
+'easeInOutQuint'
+'easeOutElastic'
+'easeInSine'
+'easeOutSine'
+'easeInOutSine'
+'easeInCirc'
+'easeOutCirc'
+'easeInOutCirc'
+'easeInBack'
+'easeOutBack'
+'easeInOutBack'
+'easeInElastic'
+'easeOutElastic'
+'easeInOutElastic'
+'easeInBounce'
+'easeOutBounce'
+'easeInOutBounce'

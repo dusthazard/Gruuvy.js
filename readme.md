@@ -1,6 +1,6 @@
 # Vanilla Javascript Animations Library #
 
-**Description:** EE Animate is a super light animation plugin written in 'vanilla' Javascript.
+**Description:** Gruuvy is a super light weight (<4kb) animation plugin written in 'vanilla' Javascript, and designed to move objects around the DOM in an elegant way without using jQuery.
 
 ## Live Examples
 
